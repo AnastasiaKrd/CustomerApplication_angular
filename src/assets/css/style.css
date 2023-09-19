@@ -1,0 +1,22 @@
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.customer-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(184, 184, 184, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}  
+
+.error-message{
+    color: rgb(113, 3, 3);
+}
